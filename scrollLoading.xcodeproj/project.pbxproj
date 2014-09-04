@@ -19,6 +19,8 @@
 		6ADA845E19B920B300F75302 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ADA844619B920B300F75302 /* UIKit.framework */; };
 		6ADA846619B920B300F75302 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ADA846419B920B300F75302 /* InfoPlist.strings */; };
 		6ADA846819B920B300F75302 /* scrollLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA846719B920B300F75302 /* scrollLoadingTests.m */; };
+		6ADA847419B920D800F75302 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA847219B920D800F75302 /* MainViewController.m */; };
+		6ADA847519B920D800F75302 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ADA847319B920D800F75302 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		6ADA846319B920B300F75302 /* scrollLoadingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scrollLoadingTests-Info.plist"; sourceTree = "<group>"; };
 		6ADA846519B920B300F75302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ADA846719B920B300F75302 /* scrollLoadingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scrollLoadingTests.m; sourceTree = "<group>"; };
+		6ADA847119B920D800F75302 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6ADA847219B920D800F75302 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6ADA847319B920D800F75302 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				6ADA845119B920B300F75302 /* AppDelegate.h */,
 				6ADA845219B920B300F75302 /* AppDelegate.m */,
+				6ADA847119B920D800F75302 /* MainViewController.h */,
+				6ADA847219B920D800F75302 /* MainViewController.m */,
+				6ADA847319B920D800F75302 /* MainViewController.xib */,
 				6ADA845419B920B300F75302 /* Images.xcassets */,
 				6ADA844919B920B300F75302 /* Supporting Files */,
 			);
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ADA844D19B920B300F75302 /* InfoPlist.strings in Resources */,
+				6ADA847519B920D800F75302 /* MainViewController.xib in Resources */,
 				6ADA845519B920B300F75302 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ADA845319B920B300F75302 /* AppDelegate.m in Sources */,
+				6ADA847419B920D800F75302 /* MainViewController.m in Sources */,
 				6ADA844F19B920B300F75302 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
